@@ -1,0 +1,1346 @@
+(base) PS C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-yarn> yarn start
+yarn run v1.22.11
+$ webpack serve
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-yarn\dist, C:\Users\rites\Desktop\temp\perspective-tests\node_modules\superstore-arrow
+× ｢wdm｣: assets by path *.js 10.6 MiB
+  asset index.js 10 MiB [emitted] (name: main) 1 related asset
+  asset editor.worker.js 436 KiB [emitted] 1 related asset
+  asset perspective.worker.js 205 KiB [emitted] 1 related asset
+assets by path *.wasm 5.05 MiB
+  asset perspective.cpp.wasm 4.55 MiB [emitted] (auxiliary name: main)
+  asset perspective_vieux_bg.wasm 508 KiB [emitted] (auxiliary name: main)
+asset index.html 248 bytes [emitted]
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/actionbar/actionbar.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/actionbar/actionbar.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/actionbar/actionbar.css 4:14-228
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/actionbar/actionViewItems.js 5:0-25
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/contextmenu/contextmenu.js 24:0-87 183:31-45 189:27-41
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 24:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/aria/aria.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/aria/aria.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/aria/aria.css 4:14-223
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/aria/aria.js 5:0-20
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/controller/coreCommands.js 8:0-63 1270:12-18
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 11:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/button/button.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/button/button.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/button/button.css 4:14-225
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/button/button.js 5:0-22
+ @ ./node_modules/monaco-editor/esm/vs/base/parts/quickinput/browser/quickInput.js 25:0-62 827:23-29 833:33-39
+ @ ./node_modules/monaco-editor/esm/vs/platform/quickinput/browser/quickInput.js 22:0-92 59:46-66
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInputServiceImpl.js 23:0-90 25:88-105
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneServices.js 54:0-98 161:45-76
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneLanguages.js 12:0-57 30:14-44 38:21-51 52:29-59 190:8-49 193:8-49 200:29-59 209:51-92 222:41-71 222:75-116 317:26-58
+ @ ./node_modules/monaco-editor/esm/vs/editor/editor.api.js 9:0-87 22:16-40
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline1.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 2:0-107 629:18-32
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/checkbox/checkbox.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/checkbox/checkbox.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/checkbox/checkbox.css 4:14-227
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/checkbox/checkbox.js 5:0-24
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/find/findWidget.js 18:0-73 849:55-63
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/find/findController.js 32:0-45 401:42-52
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 28:0-68
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon/codicon-modifiers.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon/codicon-modifiers.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon/codicon-modifiers.css 4:14-245
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codiconStyles.js 6:0-41
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickAccess/standaloneGotoSymbolQuickAccess.js 14:0-63
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 59:0-103
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon/codicon.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon/codicon.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | var escape = require("../../../../../../../../css-loader/lib/url/escape.js");
+    | ^
+  2 | exports = module.exports = require("../../../../../../../../css-loader/lib/css-base.js")(false);
+  3 | // imports
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon/codicon.css 4:14-235
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codiconStyles.js 5:0-31
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickAccess/standaloneGotoSymbolQuickAccess.js 14:0-63
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 59:0-103
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/contextview/contextview.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/contextview/contextview.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/contextview/contextview.css 4:14-230
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/contextview/contextview.js 5:0-27
+ @ ./node_modules/monaco-editor/esm/vs/platform/contextview/browser/contextViewService.js 14:0-82 23:46-57
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneServices.js 26:0-97 162:86-104
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneLanguages.js 12:0-57 30:14-44 38:21-51 52:29-59 190:8-49 193:8-49 200:29-59 209:51-92 222:41-71 222:75-116 317:26-58
+ @ ./node_modules/monaco-editor/esm/vs/editor/editor.api.js 9:0-87 22:16-40
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline1.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 2:0-107 629:18-32
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/countBadge/countBadge.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/countBadge/countBadge.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/countBadge/countBadge.css 4:14-229
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/countBadge/countBadge.js 5:0-26
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesTree.js 17:0-82 111:25-35
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesWidget.js 34:0-176 270:39-60 271:87-115 272:34-50 288:124-132 289:54-76 290:54-74 291:53-63
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesController.js 32:0-68 89:21-40 90:65-80
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/goToCommands.js 28:0-70 171:25-49 668:31-55
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 33:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/dropdown/dropdown.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/dropdown/dropdown.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/dropdown/dropdown.css 4:14-227
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/dropdown/dropdownActionViewItem.js 5:0-24
+ @ ./node_modules/monaco-editor/esm/vs/platform/actions/browser/menuEntryActionViewItem.js 27:0-105 225:74-100
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/gotoErrorWidget.js 33:0-111 248:8-39
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/gotoError.js 30:0-62 73:65-87 188:24-56 212:24-56
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 32:0-68
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/findinput/findInput.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/findinput/findInput.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/findinput/findInput.css 4:14-228
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/findinput/findInput.js 5:0-25
+ @ ./node_modules/monaco-editor/esm/vs/platform/browser/contextScopedHistoryWidget.js 15:0-73 35:66-75
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/find/findWidget.js 30:0-124 755:45-67 900:48-73
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/find/findController.js 32:0-45 401:42-52
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 28:0-68
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/hover/hover.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/hover/hover.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/hover/hover.css 4:14-224
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/hover/hoverWidget.js 5:0-21
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/hover/modesContentHover.js 31:0-76 142:41-52
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/hover/hover.js 21:0-65 89:82-108 112:105-131 120:106-132 148:46-69 187:38-61
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 35:0-60
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/iconLabel/iconlabel.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/iconLabel/iconlabel.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/iconLabel/iconlabel.css 4:14-228
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/iconLabel/iconLabel.js 14:0-25
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/suggestWidgetRenderer.js 22:0-76 84:29-38
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/suggestWidget.js 43:0-69 153:61-73 328:63-72
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/suggestController.js 35:0-51 106:69-82
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 47:0-74
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/inputbox/inputBox.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/inputbox/inputBox.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/inputbox/inputBox.css 4:14-227
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/inputbox/inputBox.js 5:0-24
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/findinput/findInput.js 8:0-58 59:43-58
+ @ ./node_modules/monaco-editor/esm/vs/platform/browser/contextScopedHistoryWidget.js 15:0-73 35:66-75
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/find/findWidget.js 30:0-124 755:45-67 900:48-73
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/find/findController.js 32:0-45 401:42-52
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 28:0-68
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/keybindingLabel/keybindingLabel.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/keybindingLabel/keybindingLabel.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/keybindingLabel/keybindingLabel.css 4:14-234
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/keybindingLabel/keybindingLabel.js 5:0-31
+ @ ./node_modules/monaco-editor/esm/vs/base/parts/quickinput/browser/quickInputList.js 36:0-89 89:30-45
+ @ ./node_modules/monaco-editor/esm/vs/base/parts/quickinput/browser/quickInput.js 18:0-74 470:35-60 495:43-67 503:47-75 506:47-71 514:43-71 521:43-75 542:47-72 548:47-71 702:39-65 706:39-63 752:35-60 839:40-54
+ @ ./node_modules/monaco-editor/esm/vs/platform/quickinput/browser/quickInput.js 22:0-92 59:46-66
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInputServiceImpl.js 23:0-90 25:88-105
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneServices.js 54:0-98 161:45-76
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneLanguages.js 12:0-57 30:14-44 38:21-51 52:29-59 190:8-49 193:8-49 200:29-59 209:51-92 222:41-71 222:75-116 317:26-58
+ @ ./node_modules/monaco-editor/esm/vs/editor/editor.api.js 9:0-87 22:16-40
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline1.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 2:0-107 629:18-32
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/list/list.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/list/list.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/list/list.css 4:14-223
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/list/listWidget.js 20:0-20
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/suggestWidget.js 32:0-67 156:25-29
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/suggestController.js 35:0-51 106:69-82
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 47:0-74
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/mouseCursor/mouseCursor.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/mouseCursor/mouseCursor.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/mouseCursor/mouseCursor.css 4:14-230
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/mouseCursor/mouseCursor.js 5:0-27
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/diffEditorWidget.js 52:0-103 1709:54-86
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 13:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/progressbar/progressbar.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/progressbar/progressbar.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/progressbar/progressbar.css 4:14-230
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/progressbar/progressbar.js 5:0-27
+ @ ./node_modules/monaco-editor/esm/vs/base/parts/quickinput/browser/quickInput.js 23:0-77 863:32-43
+ @ ./node_modules/monaco-editor/esm/vs/platform/quickinput/browser/quickInput.js 22:0-92 59:46-66
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInputServiceImpl.js 23:0-90 25:88-105
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneServices.js 54:0-98 161:45-76
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneLanguages.js 12:0-57 30:14-44 38:21-51 52:29-59 190:8-49 193:8-49 200:29-59 209:51-92 222:41-71 222:75-116 317:26-58
+ @ ./node_modules/monaco-editor/esm/vs/editor/editor.api.js 9:0-87 22:16-40
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline1.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 2:0-107 629:18-32
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/sash/sash.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/sash/sash.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/sash/sash.css 4:14-223
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/sash/sash.js 5:0-20
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/diffEditorWidget.js 19:0-61 1372:40-44
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 13:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/scrollbar/media/scrollbars.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/scrollbar/media/scrollbars.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/scrollbar/media/scrollbars.css 4:14-238
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/scrollbar/scrollableElement.js 5:0-32
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/diffReview.js 20:0-95 80:44-64
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/diffEditorWidget.js 27:0-45 223:31-41
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 13:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/splitview/splitview.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/splitview/splitview.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/splitview/splitview.css 4:14-228
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/splitview/splitview.js 5:0-25
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesWidget.js 43:0-87 244:30-39 301:11-28 312:11-28
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesController.js 32:0-68 89:21-40 90:65-80
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/goToCommands.js 28:0-70 171:25-49 668:31-55
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 33:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/table/table.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/table/table.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/table/table.css 4:14-224
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/table/tableWidget.js 5:0-21
+ @ ./node_modules/monaco-editor/esm/vs/platform/list/browser/listService.js 33:0-70 296:50-55
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesController.js 38:0-110 357:56-84 360:41-53 374:56-84 377:41-53 386:37-49
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/goToCommands.js 28:0-70 171:25-49 668:31-55
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 33:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/browser/ui/tree/media/tree.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/browser/ui/tree/media/tree.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/tree/media/tree.css 4:14-232
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/tree/abstractTree.js 5:0-26
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/ui/tree/dataTree.js 5:0-49 7:30-42
+ @ ./node_modules/monaco-editor/esm/vs/platform/list/browser/listService.js 31:0-69 539:56-64
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesController.js 38:0-110 357:56-84 360:41-53 374:56-84 377:41-53 386:37-49
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/goToCommands.js 28:0-70 171:25-49 668:31-55
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 33:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/base/parts/quickinput/browser/media/quickInput.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/base/parts/quickinput/browser/media/quickInput.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/base/parts/quickinput/browser/media/quickInput.css 4:14-238
+ @ ./node_modules/monaco-editor/esm/vs/base/parts/quickinput/browser/quickInput.js 14:0-32
+ @ ./node_modules/monaco-editor/esm/vs/platform/quickinput/browser/quickInput.js 22:0-92 59:46-66
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInputServiceImpl.js 23:0-90 25:88-105
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneServices.js 54:0-98 161:45-76
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneLanguages.js 12:0-57 30:14-44 38:21-51 52:29-59 190:8-49 193:8-49 200:29-59 209:51-92 222:41-71 222:75-116 317:26-58
+ @ ./node_modules/monaco-editor/esm/vs/editor/editor.api.js 9:0-87 22:16-40
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline1.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 2:0-107 629:18-32
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/controller/textAreaHandler.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/controller/textAreaHandler.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/controller/textAreaHandler.css 4:14-225
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/controller/textAreaHandler.js 5:0-31
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 11:0-67 62:36-51
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/currentLineHighlight/currentLineHighlight.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/currentLineHighlight/currentLineHighlight.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/currentLineHighlight/currentLineHighlight.css 4:14-239
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/currentLineHighlight/currentLineHighlight.js 5:0-36
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 17:0-139 89:50-77 95:49-82
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/decorations/decorations.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/decorations/decorations.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/decorations/decorations.css 4:14-230
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/decorations/decorations.js 5:0-27
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 18:0-77 92:50-68
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/glyphMargin/glyphMargin.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/glyphMargin/glyphMargin.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/glyphMargin/glyphMargin.css 4:14-230
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/glyphMargin/glyphMargin.js 5:0-27
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 20:0-77 96:49-67
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/indentGuides/indentGuides.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/indentGuides/indentGuides.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/indentGuides/indentGuides.css 4:14-231
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/indentGuides/indentGuides.js 5:0-28
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 21:0-80 91:50-69
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lineNumbers/lineNumbers.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lineNumbers/lineNumbers.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lineNumbers/lineNumbers.css 4:14-230
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lineNumbers/lineNumbers.js 5:0-27
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 22:0-77 99:49-67
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/linesDecorations/linesDecorations.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/linesDecorations/linesDecorations.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/linesDecorations/linesDecorations.css 4:14-235
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/linesDecorations/linesDecorations.js 5:0-32
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 24:0-92 98:49-72
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lines/viewLines.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lines/viewLines.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lines/viewLines.css 4:14-228
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lines/viewLines.js 5:0-25
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 23:0-60 78:30-39
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/marginDecorations/marginDecorations.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/marginDecorations/marginDecorations.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/marginDecorations/marginDecorations.css 4:14-236
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/marginDecorations/marginDecorations.js 5:0-33
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 26:0-103 97:49-81
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/minimap/minimap.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/minimap/minimap.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/minimap/minimap.css 4:14-226
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/minimap/minimap.js 5:0-23
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 27:0-58 114:28-35
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/overlayWidgets/overlayWidgets.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/overlayWidgets/overlayWidgets.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/overlayWidgets/overlayWidgets.css 4:14-233
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/overlayWidgets/overlayWidgets.js 5:0-30
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 28:0-83 110:35-53
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/rulers/rulers.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/rulers/rulers.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/rulers/rulers.css 4:14-225
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/rulers/rulers.js 5:0-22
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 31:0-55 112:27-33
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/scrollDecoration/scrollDecoration.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/scrollDecoration/scrollDecoration.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/scrollDecoration/scrollDecoration.css 4:14-235
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/scrollDecoration/scrollDecoration.js 5:0-32
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 32:0-93 85:37-61
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/selections/selections.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/selections/selections.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/selections/selections.css 4:14-229
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/selections/selections.js 5:0-26
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 33:0-74 90:50-67
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/viewCursors/viewCursors.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/viewCursors/viewCursors.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/viewCursors/viewCursors.css 4:14-230
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/viewCursors/viewCursors.js 5:0-27
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/view/viewImpl.js 34:0-70 107:32-43
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 25:0-43 1176:25-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/diffEditor.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/diffEditor.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/diffEditor.css 4:14-229
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/diffEditorWidget.js 15:0-32
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 13:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/diffReview.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/diffReview.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/diffReview.css 4:14-229
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/diffReview.js 15:0-32
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/diffEditorWidget.js 27:0-45 223:31-41
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 13:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/editor.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/editor.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/editor.css 4:14-225
+ @ ./node_modules/monaco-editor/esm/vs/editor/browser/widget/codeEditorWidget.js 15:0-28
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 12:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/anchorSelect/anchorSelect.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/anchorSelect/anchorSelect.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/anchorSelect/anchorSelect.css 4:14-222
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/anchorSelect/anchorSelect.js 23:0-28
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 15:0-74
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/bracketMatching/bracketMatching.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/bracketMatching/bracketMatching.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/bracketMatching/bracketMatching.css 4:14-225
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/bracketMatching/bracketMatching.js 5:0-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 16:0-80
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/codeAction/lightBulbWidget.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/codeAction/lightBulbWidget.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/codeAction/lightBulbWidget.css 4:14-225
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/codeAction/lightBulbWidget.js 18:0-31
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/codeAction/codeActionUi.js 41:0-55 57:78-93
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/codeAction/codeActionCommands.js 31:0-49 79:53-65
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/codeAction/codeActionContributions.js 6:0-178 7:27-48 7:50-68 8:21-35 9:21-35 10:21-33 11:21-42 12:21-34 13:21-33 14:26-43
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 20:0-83
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/codelens/codelensWidget.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/codelens/codelensWidget.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/codelens/codelensWidget.css 4:14-224
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/codelens/codelensWidget.js 5:0-30
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/codelens/codelensController.js 30:0-69 195:37-51 253:27-41 289:35-49 305:66-80 317:42-56
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 21:0-76
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/colorPicker/colorPicker.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/colorPicker/colorPicker.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/colorPicker/colorPicker.css 4:14-221
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/colorPicker/colorPickerWidget.js 5:0-27
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/hover/modesContentHover.js 25:0-72 394:35-52
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/hover/hover.js 21:0-65 89:82-108 112:105-131 120:106-132 148:46-69 187:38-61
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 35:0-60
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/dnd/dnd.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/dnd/dnd.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/dnd/dnd.css 4:14-213
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/dnd/dnd.js 5:0-19
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 26:0-56
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/find/findWidget.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/find/findWidget.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/find/findWidget.css 4:14-220
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/find/findWidget.js 14:0-26
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/find/findController.js 32:0-45 401:42-52
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 28:0-68
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/folding/folding.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/folding/folding.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/folding/folding.css 4:14-217
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/folding/folding.js 14:0-23
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 29:0-64
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/media/gotoErrorWidget.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/media/gotoErrorWidget.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/media/gotoErrorWidget.css 4:14-234
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/gotoErrorWidget.js 14:0-37
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/gotoError.js 30:0-62 73:65-87 188:24-56 212:24-56
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 32:0-68
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/link/goToDefinitionAtPosition.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/link/goToDefinitionAtPosition.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/link/goToDefinitionAtPosition.css 4:14-243
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/link/goToDefinitionAtPosition.js 14:0-40
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 34:0-89
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesWidget.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesWidget.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesWidget.css 4:14-235
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesWidget.js 23:0-32
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesController.js 32:0-68 89:21-40 90:65-80
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/goToCommands.js 28:0-70 171:25-49 668:31-55
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 33:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/links/links.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/links/links.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/links/links.css 4:14-215
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/links/links.js 23:0-21
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 41:0-60
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/message/messageController.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/message/messageController.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/message/messageController.css 4:14-227
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/message/messageController.js 14:0-33
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/goToCommands.js 26:0-68 90:20-41
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 33:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/parameterHints/parameterHints.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/parameterHints/parameterHints.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/parameterHints/parameterHints.css 4:14-224
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/parameterHints/parameterHintsWidget.js 20:0-30
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/parameterHints/parameterHints.js 20:0-65 27:73-93
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 43:0-78
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/peekView/media/peekViewWidget.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/peekView/media/peekViewWidget.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/peekView/media/peekViewWidget.css 4:14-233
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/peekView/peekView.js 14:0-36
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/goToCommands.js 27:0-54 266:90-117 345:87-114 415:94-121 487:94-121 528:85-112 562:85-112 584:45-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 33:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/rename/renameInputField.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/rename/renameInputField.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/rename/renameInputField.css 4:14-226
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/rename/renameInputField.js 14:0-32
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/rename/rename.js 29:0-87 139:137-153 295:18-46 305:37-65 315:18-46
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 44:0-62
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/snippet/snippetSession.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/snippet/snippetSession.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/snippet/snippetSession.css 4:14-224
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/snippet/snippetSession.js 8:0-30
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/snippet/snippetController2.js 22:0-53 81:32-46
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 46:0-75
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/media/suggest.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/media/suggest.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/media/suggest.css 4:14-226
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/suggestWidget.js 23:0-29
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/suggestController.js 35:0-51 106:69-82
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 47:0-74
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/contrib/zoneWidget/zoneWidget.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/contrib/zoneWidget/zoneWidget.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/zoneWidget/zoneWidget.css 4:14-220
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/zoneWidget/zoneWidget.js 5:0-26
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/peekView/peekView.js 23:0-57 83:50-60
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/goToCommands.js 27:0-54 266:90-117 345:87-114 415:94-121 487:94-121 528:85-112 562:85-112 584:45-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 33:0-72
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/accessibilityHelp/accessibilityHelp.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/standalone/browser/accessibilityHelp/accessibilityHelp.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/accessibilityHelp/accessibilityHelp.css 4:14-236
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/accessibilityHelp/accessibilityHelp.js 14:0-33
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 54:0-95
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/iPadShowKeyboard/iPadShowKeyboard.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/standalone/browser/iPadShowKeyboard/iPadShowKeyboard.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/iPadShowKeyboard/iPadShowKeyboard.css 4:14-235
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/iPadShowKeyboard/iPadShowKeyboard.js 5:0-32
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 55:0-93
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/inspectTokens/inspectTokens.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/standalone/browser/inspectTokens/inspectTokens.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/inspectTokens/inspectTokens.css 4:14-232
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/inspectTokens/inspectTokens.js 14:0-29
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 56:0-87
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInput.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInput.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInput.css 4:14-239
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInputServiceImpl.js 14:0-36
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneServices.js 54:0-98 161:45-76
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneLanguages.js 12:0-57 30:14-44 38:21-51 52:29-59 190:8-49 193:8-49 200:29-59 209:51-92 222:41-71 222:75-116 317:26-58
+ @ ./node_modules/monaco-editor/esm/vs/editor/editor.api.js 9:0-87 22:16-40
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline1.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 2:0-107 629:18-32
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standalone-tokens.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standalone-tokens.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standalone-tokens.css 4:14-227
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneEditor.js 5:0-33
+ @ ./node_modules/monaco-editor/esm/vs/editor/editor.api.js 8:0-81 21:13-34
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline1.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 2:0-107 629:18-32
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/platform/actions/browser/menuEntryActionViewItem.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/platform/actions/browser/menuEntryActionViewItem.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/platform/actions/browser/menuEntryActionViewItem.css 4:14-233
+ @ ./node_modules/monaco-editor/esm/vs/platform/actions/browser/menuEntryActionViewItem.js 14:0-39
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/gotoErrorWidget.js 33:0-111 248:8-39
+ @ ./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/gotoError.js 30:0-62 73:65-87 188:24-56 212:24-56
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/src/js/monaco.js 32:0-68
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline0.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 1:0-89 637:18-31
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+ERROR in ./node_modules/monaco-editor/esm/vs/platform/contextview/browser/contextMenuHandler.css (./node_modules/css-loader/index.js!./node_modules/css-loader/index.js??ruleSet[1].rules[5].use[0]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/monaco-editor/esm/vs/platform/contextview/browser/contextMenuHandler.css)
+Module build failed (from ./node_modules/css-loader/index.js):
+Unknown word (1:1)
+
+> 1 | exports = module.exports = require("../../../../../../css-loader/lib/css-base.js")(false);
+    | ^
+  2 | // imports
+  3 |
+  4 |
+
+ @ ./node_modules/monaco-editor/esm/vs/platform/contextview/browser/contextMenuHandler.css 4:14-228
+ @ ./node_modules/monaco-editor/esm/vs/platform/contextview/browser/contextMenuHandler.js 5:0-34
+ @ ./node_modules/monaco-editor/esm/vs/platform/contextview/browser/contextMenuService.js 14:0-61 25:38-56
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneServices.js 24:0-97 165:43-61
+ @ ./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standaloneLanguages.js 12:0-57 30:14-44 38:21-51 52:29-59 190:8-49 193:8-49 200:29-59 209:51-92 222:41-71 222:75-116 317:26-58
+ @ ./node_modules/monaco-editor/esm/vs/editor/editor.api.js 9:0-87 22:16-40
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/snippets/perspective_vieux-7472f4210b2ce98b/inline1.js
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/@finos/perspective-vieux/pkg/perspective_vieux.js 2:0-107 629:18-32
+ @ ./node_modules/@finos/perspective-viewer/dist/esm/viewer.js 2:0-102 3:0-126 52:13-39 53:2-16 54:9-26
+ @ ./src/index.js 12:0-35
+
+67 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack compiled with 67 errors in 6352 ms
+i ｢wdm｣: Failed to compile.
