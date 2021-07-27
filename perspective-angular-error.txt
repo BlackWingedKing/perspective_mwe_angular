@@ -1,0 +1,743 @@
+./node_modules/regular-table/dist/umd/regular-table.js:655:12 - Error: Module parse failed: Unexpected token (655:12)
+File was processed with these loaders:
+ * ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+ * ./node_modules/@ngtools/webpack/src/ivy/index.js
+You may need an additional loader to handle the result of these loaders.
+|         let t = [];
+|
+>         for await (t of _this.table_model.draw(_this._container_size, _this._view_cache, _this._selected_id, s, h, a)) {
+|           _this._is_styling = !0;
+|           const e = _this._style_callbacks;
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/actionbar/actionbar.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\actionbar\actionbar.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/aria/aria.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\aria\aria.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/button/button.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\button\button.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/checkbox/checkbox.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\checkbox\checkbox.css Unknown word
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon/codicon-modifiers.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\codicons\codicon\codicon-modifiers.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/codicons/codicon/codicon.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\codicons\codicon\codicon.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../../css-loader/dist/runtime/api.js";
+  3 | import ___CSS_LOADER_GET_URL_IMPORT___ from "../../../../../../../../css-loader/dist/runtime/getUrl.js";
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/contextview/contextview.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\contextview\contextview.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/countBadge/countBadge.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\countBadge\countBadge.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/dropdown/dropdown.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\dropdown\dropdown.css Unknown word
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/findinput/findInput.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\findinput\findInput.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/hover/hover.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\hover\hover.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/iconLabel/iconlabel.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\iconLabel\iconlabel.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/inputbox/inputBox.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\inputbox\inputBox.css Unknown word
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/keybindingLabel/keybindingLabel.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\keybindingLabel\keybindingLabel.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/list/list.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\list\list.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/mouseCursor/mouseCursor.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\mouseCursor\mouseCursor.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/progressbar/progressbar.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\progressbar\progressbar.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/sash/sash.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\sash\sash.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/scrollbar/media/scrollbars.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\scrollbar\media\scrollbars.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/splitview/splitview.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\splitview\splitview.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/table/table.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\table\table.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/browser/ui/tree/media/tree.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\browser\ui\tree\media\tree.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/base/parts/quickinput/browser/media/quickInput.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\base\parts\quickinput\browser\media\quickInput.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/controller/textAreaHandler.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\controller\textAreaHandler.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]}39m);
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/currentLineHighlight/currentLineHighlight.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\currentLineHighlight\currentLineHighlight.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/decorations/decorations.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\decorations\decorations.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/glyphMargin/glyphMargin.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\glyphMargin\glyphMargin.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/indentGuides/indentGuides.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\indentGuides\indentGuides.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lineNumbers/lineNumbers.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\lineNumbers\lineNumbers.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/linesDecorations/linesDecorations.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\linesDecorations\linesDecorations.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/lines/viewLines.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\lines\viewLines.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/marginDecorations/marginDecorations.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\marginDecorations\marginDecorations.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/minimap/minimap.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\minimap\minimap.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/overlayWidgets/overlayWidgets.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\overlayWidgets\overlayWidgets.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/rulers/rulers.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\rulers\rulers.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/scrollDecoration/scrollDecoration.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\scrollDecoration\scrollDecoration.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(39mfunction(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/selections/selections.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\selections\selections.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/viewParts/viewCursors/viewCursors.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\viewParts\viewCursors\viewCursors.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/diffEditor.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\widget\media\diffEditor.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/diffReview.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\widget\media\diffReview.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/browser/widget/media/editor.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\browser\widget\media\editor.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/anchorSelect/anchorSelect.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\anchorSelect\anchorSelect.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/bracketMatching/bracketMatching.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\bracketMatching\bracketMatching.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/codeAction/lightBulbWidget.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\codeAction\lightBulbWidget.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/codelens/codelensWidget.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\codelens\codelensWidget.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/colorPicker/colorPicker.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\colorPicker\colorPicker.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/dnd/dnd.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\dnd\dnd.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/find/findWidget.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\find\findWidget.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/folding/folding.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\folding\folding.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/gotoError/media/gotoErrorWidget.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\gotoError\media\gotoErrorWidget.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/link/goToDefinitionAtPosition.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\gotoSymbol\link\goToDefinitionAtPosition.css Unknown word
+
+> 1 | // Imports
+    | 1m^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/gotoSymbol/peek/referencesWidget.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\gotoSymbol\peek\referencesWidget.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/links/links.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\links\links.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/message/messageController.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\message\messageController.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/parameterHints/parameterHints.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\parameterHints\parameterHints.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/peekView/media/peekViewWidget.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\peekView\media\peekViewWidget.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/rename/renameInputField.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\rename\renameInputField.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/snippet/snippetSession.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\snippet\snippetSession.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/suggest/media/suggest.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\suggest\media\suggest.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/contrib/zoneWidget/zoneWidget.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\contrib\zoneWidget\zoneWidget.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/standalone/browser/accessibilityHelp/accessibilityHelp.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\standalone\browser\accessibilityHelp\accessibilityHelp.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/standalone/browser/iPadShowKeyboard/iPadShowKeyboard.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\standalone\browser\iPadShowKeyboard\iPadShowKeyboard.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/standalone/browser/inspectTokens/inspectTokens.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\standalone\browser\inspectTokens\inspectTokens.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInput.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\standalone\browser\quickInput\standaloneQuickInput.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/editor/standalone/browser/standalone-tokens.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\editor\standalone\browser\standalone-tokens.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/platform/actions/browser/menuEntryActionViewItem.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\platform\actions\browser\menuEntryActionViewItem.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+
+
+./node_modules/monaco-editor/esm/vs/platform/contextview/browser/contextMenuHandler.css - Error: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(1:1) C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\perspective-npm-angular\node_modules\monaco-editor\esm\vs\platform\contextview\browser\contextMenuHandler.css Unknown word
+
+> 1 | // Imports
+    | ^
+  2 | import ___CSS_LOADER_API_IMPORT___ from "../../../../../../css-loader/dist/runtime/api.js";
+  3 | var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});

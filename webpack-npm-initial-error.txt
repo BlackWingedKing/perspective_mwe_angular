@@ -1,0 +1,30 @@
+(base) PS C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm> npm run start
+
+> webpack-npm@0.10.0 start C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm
+> webpack serve
+
+C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\html-webpack-plugin\index.js:59
+        compilation.hooks.htmlWebpackPluginAlterChunks = new SyncWaterfallHook(['chunks', 'objectWithPluginRef']);
+                                                       ^
+
+TypeError: Cannot add property htmlWebpackPluginAlterChunks, object is not extensible
+    at C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\html-webpack-plugin\index.js:59:56
+    at Hook.eval [as call] (eval at create (C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\webpack\node_modules\tapable\lib\HookCodeFactory.js:19:10), <anonymous>:100:1)
+    at Hook.CALL_DELEGATE [as _call] (C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\webpack\node_modules\tapable\lib\Hook.js:14:14)
+    at Compiler.newCompilation (C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\webpack\lib\Compiler.js:1044:26)
+    at C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\webpack\lib\Compiler.js:1088:29
+    at Hook.eval [as callAsync] (eval at create (C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\webpack\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\webpack\node_modules\tapable\lib\Hook.js:18:14)
+    at Compiler.compile (C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\webpack\lib\Compiler.js:1083:28)
+    at C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\webpack\lib\Watching.js:200:19
+    at Hook.eval [as callAsync] (eval at create (C:\Users\rites\Desktop\temp\perspective-tests\perspective_mwe_angular\example-webpack-npm\node_modules\webpack\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:24:1)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! webpack-npm@0.10.0 start: `webpack serve`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the webpack-npm@0.10.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\rites\AppData\Roaming\npm-cache\_logs\2021-07-27T02_23_02_807Z-debug.log
